@@ -38,6 +38,11 @@ const cakeVideos = [
     text: "Montaje limpio para que cada pastel llegue listo a la mesa.",
     src: "https://videos.pexels.com/video-files/5694291/5694291-uhd_4096_2160_30fps.mp4",
   },
+  {
+    title: "Roles de canela",
+    text: "Crujiente y dulce, perfecto para acompañar un cafe.",
+    src: "https://www.pexels.com/es-es/download/video/25946545/",
+  },
 ];
 
 const stats = ["Pedidos con 48 h", "Sabores por temporada", "Mesas dulces"];
@@ -86,8 +91,8 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#654131]">
               GGHome Bakery crea tartas, pasteles y cajas dulces con una
-              estetica elegante, sabores clasicos y acabados listos para
-              regalar o compartir.
+              estetica elegante, sabores clasicos y acabados listos para regalar
+              o compartir.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a className="primary-button" href="#pedido">
@@ -225,7 +230,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="pedido" className="bg-[#fff8ed] px-6 py-20 sm:px-10 lg:px-12">
+      <section
+        id="pedido"
+        className="bg-[#fff8ed] px-6 py-20 sm:px-10 lg:px-12"
+      >
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="reveal-on-scroll" data-reveal>
             <p className="eyebrow">Pedido personalizado</p>
@@ -290,7 +298,11 @@ export default function Home() {
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
-            <a className="contact-card reveal-on-scroll" data-reveal href="tel:+525500000000">
+            <a
+              className="contact-card reveal-on-scroll"
+              data-reveal
+              href="tel:+525500000000"
+            >
               <span>Telefono</span>
               <strong>+52 55 0000 0000</strong>
             </a>
